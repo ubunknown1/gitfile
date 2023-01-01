@@ -1,0 +1,10 @@
+
+
+
+# se curent path
+SCRIPT=$(realpath -s "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+
+# se path hvor denne filen er
+echo "$SCRIPT"
+echo "$SCRIPTPATH"
